@@ -1,5 +1,5 @@
 <template>
-  <div>wat</div>
+  <div>wat ....</div>
 </template>
 
 <style>
