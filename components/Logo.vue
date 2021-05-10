@@ -1,5 +1,5 @@
 <template>
-  <div>wat ....</div>
+  <div>Logo</div>
 </template>
 
 <style>
