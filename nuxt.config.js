@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'rob-fraser-portfolio-site',
+    title: 'Rob Fraser Portfolio',
     htmlAttrs: {
       lang: 'en'
     },
@@ -20,10 +20,17 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/main.css',
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
+
+  purgeCSS: {
+    whitelistPatterns: [/svg.*/, /fa.*/]
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/fontawesome.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -43,5 +50,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    babel:{
+      plugins: [
+        ['@babel/plugin-proposal-private-methods', { loose: true }]
+      ]
+    }
   }
 }
