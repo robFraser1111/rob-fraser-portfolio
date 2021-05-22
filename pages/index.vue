@@ -2,7 +2,7 @@
 
       <div class="hero main grid min-h-screen mx-auto px-4">
 
-        <header class="h-24 self-start">
+        <header class="self-start">
           <MobileMenu :menuItems="menuItems"/>
         </header>
         
@@ -20,7 +20,7 @@
       
         </main>
 
-        <footer class="h-24 self-end">
+        <footer class="self-end">
           <Footer />
         </footer>
 
@@ -91,6 +91,10 @@ export default {
   .main {
     max-width: 2560px;
   }
+
+  header, footer {
+    padding: 2rem 0;
+  }
 </style>
 
 <style>
@@ -98,6 +102,7 @@ export default {
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s
 }
+
 .fade-enter, .fade-leave-active {
   opacity: 0
 }

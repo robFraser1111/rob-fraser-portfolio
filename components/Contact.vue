@@ -13,3 +13,9 @@ export default {
     
 }
 </script>
+
+<style scoped>
+section {
+    color: #fff;
+}
+</style>
