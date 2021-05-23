@@ -36,6 +36,20 @@ export default {
                     technologies: 'Blender and Adobe CC',
                     link: 'https://www.behance.net/gallery/40609467/New-Sonos-Play1-Idea',
                     image: 'sonos-play-1.jpg'
+                },
+                {
+                    title: 'Showgrounds map',
+                    description: 'New Age Caravans showground map',
+                    technologies: 'Blender and Adobe CC',
+                    link: null,
+                    image: 'jonahhill.jpg'
+                },
+                {
+                    title: 'Medieval scene',
+                    description: 'VR Experience - Sketchfab competition',
+                    technologies: 'Blender',
+                    link: null,
+                    image: 'jonahhill.jpg'
                 }
             ]
         }

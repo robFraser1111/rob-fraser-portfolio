@@ -18,51 +18,44 @@ export default {
             items: [
                 {
                     title: 'RooDigital',
-                    description: 'Digital agency',
-                    technologies: 'Custom theme WordPress multisite',
-                    link: 'roo.digital',
+                    description: 'Logo and style guide',
+                    technologies: 'Adobe CC',
+                    link: null,
                     image: 'jonahhill.jpg'
                 },
                 {
-                    title: 'Miiesha',
-                    description: 'ARIA award winning R&B artist',
-                    technologies: 'Vue website',
-                    link: 'miiesha.com',
-                    image: 'hello.jpg'
+                    title: 'Homemade online',
+                    description: 'Logo and style guide',
+                    technologies: 'Adobe CC',
+                    link: null,
+                    image: 'jonahhill.jpg'
                 },
                 {
-                    title: 'Joseph Vea',
-                    description: 'New Zealand born, Tongan singer/songwriter',
-                    technologies: 'React website',
-                    link: 'josephvea.com',
+                    title: 'AusIMM Bulletin',
+                    description: 'Email template',
+                    technologies: 'Adobe CC, Campaign Monitor and MJML',
+                    link: null,
+                    image: 'jonahhill.jpg'
+                },
+                {
+                    title: 'AusIMM video',
+                    description: 'Something',
+                    technologies: 'Something',
+                    link: null,
+                    image: 'jonahhill.jpg'
+                },
+                {
+                    title: 'ONCE Clothing',
+                    description: 'Logo and style guide',
+                    technologies: 'Adobe CC',
+                    link: null,
                     image: 'jonahhill.jpg'
                 },
                 {
                     title: 'SS Bricklaying',
-                    description: 'Local bricklaying company',
-                    technologies: 'WordPress website',
-                    link: 'ssbricklaying.melbourne/',
-                    image: 'jonahhill.jpg'
-                },
-                {
-                    title: 'Brick Restorations Melbourne',
-                    description: 'Repointing and tuckpointing specialists',
-                    technologies: 'WordPress website',
-                    link: 'brickrestorations.com.au',
-                    image: 'jonahhill.jpg'
-                },
-                {
-                    title: 'AusIMM',
-                    description: 'The Australasian Institute of Mining and Metallurgy',
-                    technologies: 'Optimizely, WordPress and static websites',
-                    link: 'ausimm.com',
-                    image: 'jonahhill.jpg'
-                },
-                {
-                    title: 'PM Group',
-                    description: 'PM Automotive Group',
-                    technologies: 'WordPress, WebEd, Joomla, Cobalt and static websites',
-                    link: 'pmgroup.com.au',
+                    description: 'Logo and style guide',
+                    technologies: 'Adobe CC',
+                    link: null,
                     image: 'jonahhill.jpg'
                 }
             ]
